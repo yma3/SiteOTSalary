@@ -1,0 +1,7 @@
+/env/
+/__pycache__/
+*.bst
+*.pkl
+/static/ref.js
+/templates/inputfieldtest.html
+/templates/sim_output.html
