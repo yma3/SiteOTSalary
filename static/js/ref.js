@@ -155,7 +155,7 @@ function Get(stringInput){
   // var stringInput = "aleccheckthisout";
   // var stringInput_Arr = JSON.stringify(array)
   var Httpreq = new XMLHttpRequest();
-  var baseSiteURL = 'https://localhost:5000/';
+  var baseSiteURL = 'https://safe-harbor-54765.herokuapp.com/';
   var httpURL = baseSiteURL + stringInput;
   console.log(httpURL);
   Httpreq.open("GET",httpURL, true);
